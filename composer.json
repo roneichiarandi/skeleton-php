@@ -12,5 +12,15 @@
             "email": "ronei.chiarandi@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "MyPhp\\Skeleton\\": "src"
+        }
+    },
+    "scripts" : {
+        "test" : "phpunit",
+        "phpmd" : "phpmd ./src text cleancode, codesize, controversial, design, naming, unusedcode",
+        "phpcs" : "phpcs ./src"
+   },
     "minimum-stability": "stable"
 }

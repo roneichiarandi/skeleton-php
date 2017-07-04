@@ -1,0 +1,16 @@
+{
+    "name": "roneichiarandi/skeleton-php",
+    "description": "A simple Skeleton to build your project or library with PHP.",
+    "type": "skeleton, php, mvc, start, configuration",
+    "require": {
+        "php": ">=5.6"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ronei Chiarandi",
+            "email": "ronei.chiarandi@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

@@ -1,0 +1,20 @@
+language: php
+
+php:
+  - 5.6
+  - 7.0
+
+before_script:
+  - composer self-update
+  - composer install --prefer-source --no-interaction --dev
+
+script:
+  - composer test
+
+after_script:
+notifications:
+  email:
+    recipients:
+      - ronei.chiarandi@gmail.com
+    on_success: never
+    on_failure: always

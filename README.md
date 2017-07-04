@@ -1,9 +1,5 @@
 # Skeleton PHP
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE)
-[![Build Status][ico-travis]][link-travis]
-[![Quality Score][ico-code-quality]][link-code-quality]
-[![Total Downloads][ico-downloads]][link-downloads]
+[![Build Status](https://travis-ci.org/roneichiarandi/skeleton-php.svg?branch=master)](https://travis-ci.org/roneichiarandi/skeleton-php)
 
 A simple Skeleton to build your project or library with PHP.
 

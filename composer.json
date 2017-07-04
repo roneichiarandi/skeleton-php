@@ -18,9 +18,10 @@
         }
     },
     "scripts" : {
-        "test" : "phpunit",
-        "phpmd" : "phpmd ./src text cleancode, codesize, controversial, design, naming, unusedcode",
-        "phpcs" : "phpcs ./src"
+        "test" : "phpunit"
    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2"
+    },
     "minimum-stability": "stable"
 }

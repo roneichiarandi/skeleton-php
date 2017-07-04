@@ -1,6 +1,6 @@
 {
     "name": "roneichiarandi/skeleton-php",
-    "description": "A simple Skeleton to build your project or library with PHP.",
+    "description": "A simple Skeleton to create project or library with PHP.",
     "type": "metapackage",
     "keywords": [ "skeleton", "php", "mvc", "start", "configuration" ],
     "require": {
@@ -24,5 +24,9 @@
     "require-dev": {
         "phpunit/phpunit": "^6.2"
     },
-    "minimum-stability": "stable"
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "beta",
+    "prefer-stable": true
 }

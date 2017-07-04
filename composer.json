@@ -1,7 +1,8 @@
 {
     "name": "roneichiarandi/skeleton-php",
     "description": "A simple Skeleton to build your project or library with PHP.",
-    "type": "skeleton, php, mvc, start, configuration",
+    "type": "metapackage",
+    "keywords": [ "skeleton", "php", "mvc", "start", "configuration" ],
     "require": {
         "php": ">=5.6"
     },

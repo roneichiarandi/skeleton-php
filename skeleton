@@ -3,7 +3,7 @@
 set -e
 
 # init setup
-echo "Start setup folders"
+echo "Starting setup"
 if [[ -d ./docs/examples ]]; then
     mv ./docs/examples/* ./
     rm -r ./docs/examples

@@ -1,7 +1,6 @@
 {
     "name": "roneichiarandi/skeleton-php",
     "description": "A simple Skeleton to create project or library with PHP.",
-    "type": "project",
     "keywords": [ "skeleton", "php", "start" ],
     "require": {
         "php": ">=5.6"
@@ -19,6 +18,7 @@
         }
     },
     "scripts" : {
+        "post-create-project-cmd": "./skeleton"
         "test" : "phpunit"
    },
     "require-dev": {

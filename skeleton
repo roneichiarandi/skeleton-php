@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+set -e
+
+# init setup
+echo "Start setup folders"
+if [[ -d ./docs/examples ]]; then
+    mv ./docs/examples/* ./
+    rm -r ./docs/examples
+fi
+
+# change to default permissions folders and files
+find ./ -type d | xargs chmod 755
+find ./ -type f | xargs chmod 644
+
+# remove script
+echo -n "Do you wish to keep skeleton script? (y/N)"
+while true; do
+        read -p "$1 " yn
+        case $yn in
+            [yY] | [y|Y][e|E][s|S] ) break;;
+            * ) rm ./skeleton; break;;
+        esac
+    done
+
+echo "All configuration right!"

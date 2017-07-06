@@ -7,7 +7,7 @@ A simple Skeleton to build your project or library with PHP.
 
 ### Prerequisites
 
-* PHP 5.6+
+* PHP 7.0+
 * [Composer](http://getcomposer.org)
 
 ### Usage
@@ -31,6 +31,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
+## Changelog
 
 

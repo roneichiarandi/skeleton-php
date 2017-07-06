@@ -18,7 +18,6 @@
         }
     },
     "scripts" : {
-        "pre-create-project-cmd": "chmod +x skeleton",
         "post-create-project-cmd": "./skeleton",
         "test" : "phpunit"
    },

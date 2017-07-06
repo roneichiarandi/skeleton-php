@@ -3,11 +3,10 @@ All notable changes to this project will be documented in this file.
 
 If you need know more about Changelog [Keep a Changelog](http://keepachangelog.com)
 
-## [0.1.1] - 2017-07-04
+## [1.0.0] - 2017-07-05
 ### Added
-- skeleton script
-- More badges
-- alias branch unstable
+- Skeleton Script
+- Badges
 
 ### Fixed
 - Link License on README

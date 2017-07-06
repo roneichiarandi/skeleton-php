@@ -18,7 +18,8 @@
         }
     },
     "scripts" : {
-        "post-create-project-cmd": "./skeleton"
+        "pre-create-project-cmd": "chmod +x skeleton",
+        "post-create-project-cmd": "./skeleton",
         "test" : "phpunit"
    },
     "require-dev": {
@@ -28,5 +29,10 @@
         "preferred-install": "dist"
     },
     "minimum-stability": "beta",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }

@@ -1,5 +1,9 @@
 # Skeleton PHP
 [![Build Status](https://travis-ci.org/roneichiarandi/skeleton-php.svg?branch=master)](https://travis-ci.org/roneichiarandi/skeleton-php)
+[![Latest Stable Version](https://poser.pugx.org/roneichiarandi/skeleton-php/v/stable)](https://packagist.org/packages/roneichiarandi/skeleton-php)
+[![Latest Unstable Version](https://poser.pugx.org/roneichiarandi/skeleton-php/v/unstable)](https://packagist.org/packages/roneichiarandi/skeleton-php)
+[![Total Downloads](https://poser.pugx.org/roneichiarandi/skeleton-php/downloads)](https://packagist.org/packages/roneichiarandi/skeleton-php)
+[![License](https://poser.pugx.org/roneichiarandi/skeleton-php/license)](https://packagist.org/packages/roneichiarandi/skeleton-php)
 
 A simple Skeleton to build your project or library with PHP.
 

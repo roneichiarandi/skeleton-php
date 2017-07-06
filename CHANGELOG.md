@@ -6,6 +6,11 @@ If you need know more about Changelog [Keep a Changelog](http://keepachangelog.c
 ## [0.1.1] - 2017-07-04
 ### Added
 - skeleton script
+- More badges
+- alias branch unstable
+
+### Fixed
+- Link License on README
 
 ## [0.1.1] - 2017-07-04
 ### Changed

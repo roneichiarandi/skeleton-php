@@ -19,7 +19,7 @@
         }
     },
     "scripts" : {
-        "post-create-project-cmd": "./skeleton",
+        "post-root-package-install": "./skeleton",
         "test" : "phpunit"
    },
     "require-dev": {

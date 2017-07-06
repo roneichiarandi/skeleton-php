@@ -3,7 +3,7 @@
 set -e
 
 # init setup
-echo "Starting setup"
+echo "Starting configuration"
 if [[ -d ./docs/examples ]]; then
     mv ./docs/examples/* ./
     rm -r ./docs/examples
@@ -14,4 +14,4 @@ find ./ -type d | xargs chmod 755
 find ./ -type f | xargs chmod 644
 rm ./skeleton
 
-echo "All configuration right!"
+echo "All configuration right"

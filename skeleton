@@ -12,15 +12,6 @@ fi
 # change to default permissions folders and files
 find ./ -type d | xargs chmod 755
 find ./ -type f | xargs chmod 644
-
-# remove script
-echo -n "Do you wish to keep skeleton script? (y/N)"
-while true; do
-        read -p "$1 " yn
-        case $yn in
-            [yY] | [y|Y][e|E][s|S] ) break;;
-            * ) rm ./skeleton; break;;
-        esac
-    done
+rm ./skeleton
 
 echo "All configuration right!"
